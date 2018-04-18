@@ -2,7 +2,11 @@
 {% load i18n %}
 
 {% block content %}
-<div class="col-sm-6 col-sm-offset-3">
-    <p>{% trans "Logged out" %}</p>
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3 text-align-center">
+        <h3>{% trans "You are successfully logged out." %}</h3>
+        <a href="">Login</a>
+    </div>
 </div>
+
 {% endblock %}

@@ -21,10 +21,10 @@
 
   <body>
     {% include 'navbar.html' %}
-
+    {% block jumbotron %}
+    {% endblock %}
     <main role="main" class="container">
-        {% block jumbotron %}
-        {% endblock %}
+
 
         {% block content %}
         {% endblock %}

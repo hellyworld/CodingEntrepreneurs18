@@ -6,19 +6,31 @@
 <style>
 {% block style %}
 
+.navbar-static-top {
+    margin-bottom: 0px !important;
+}
+
+.jumbotron {
+    background-color: #0E3D14;
+    color: white;
+}
+
 {% endblock %}
 </style>
 
 
 {% block jumbotron %}
 <div class="jumbotron">
-    <div class="row">
-        <div class="col-sm-6">
-            <h1>Try Django 1.8</h1>
-            <p>The MVP Landing project is designed to get your project started. The goal is to help you launch as soon as possible with the least amount of investment using time or money. Join Us today.</p>
-            <a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>Try Django 1.8</h1>
+                <p>The MVP Landing project is designed to get your project started. The goal is to help you launch
+                    as soon as possible with the least amount of investment using time or money. Join Us today.</p>
+                <a class="btn btn-lg btn-primary" href="" role="button">Join Us &raquo;</a>
+            </div>
+            <div class="col-sm-6" style="background-color:black; min-height:300px;"></div>
         </div>
-        <div class="col-sm-6" style="background-color:black; min-height:300px;"></div>
     </div>
 </div>
 

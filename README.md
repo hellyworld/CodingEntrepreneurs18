@@ -1,3 +1,5 @@
+Training Django project: https://www.youtube.com/playlist?list=PLEsfXFp6DpzRcd-q4vR5qAgOZUuz8041S
+
 Try Django 1.8 is a series to teach you the latest in Django Web Development by building a MVP Landing Page just like http://trydjango.com. 
 
 Topics include: 

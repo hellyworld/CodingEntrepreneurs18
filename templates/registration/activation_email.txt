@@ -6,6 +6,7 @@ Hello there!
 Click the link below to activate your account.
 
 http://{{ site.domain }}{% url 'registration_activate' activation_key %}
+#127.0.0.1:8000/accounts/activate/cb023d64e3713a116a03f49fe8a9cd1659b96a85
 
 {% blocktrans %}Link is valid for {{ expiration_days }} days.{% endblocktrans %}
 

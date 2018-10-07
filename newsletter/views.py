@@ -55,11 +55,15 @@ def contact(request):
             form_full_name,
             form_message,
             form_email)
+        some_html_message = """
+        <h1>hello</h1>
+        """
 
         send_mail(subject,
                   contact_message,
                   from_email,
                   to_email,
+                  html_message=some_html_message,
                   fail_silently=True)
 
     context = {
